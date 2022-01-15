@@ -147,7 +147,17 @@ nav h3{
 .section-end-right .contents-top {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2rem;
+}
+.content-left p, .content-right p{
+    padding-bottom: 0.2rem;
+}
+.section-end-right .contents-top .content-left p:nth-of-type(1), .content-right p:nth-of-type(1), .content-bottom p{
+    font-size: 18px;
     padding-bottom: 1rem;
 }
-
+.content-left a, .content-right a {
+    font-size: 16px;
+    color: #636262;
+}
 
