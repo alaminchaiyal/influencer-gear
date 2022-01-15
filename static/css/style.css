@@ -54,7 +54,10 @@ nav h3{
 .header-description p {
     padding: 1rem 0;
 }
-/* main section: popular collection*/
+/* main section > popular collection*/
+.popular-collection {
+    margin-bottom: 150px;
+}
 .popular-collection h3 {
     font-size: 28px;
     padding-bottom: 30px;
@@ -84,4 +87,67 @@ nav h3{
 .fa-star{
     color: #ee9f0d;
 }
+.showMore-link{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0;
+    font-size: 14px;
+}
+.showMore-link a{
+    color: #E02C6D;
+}
+/* main > section-end */
+.section-end {
+    display: flex;
+    justify-content: space-between;
+}
+.section-end-left{
+    margin-right: 10%;
+}
+.section-end-left h3{
+    font-size: 24px;
+    padding-bottom: 1rem;
+}
+.section-end-left form {
+    border-bottom: 1px solid #a1a1a1;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+.section-end-left form input {
+    border: 0;
+    padding: 0.7rem;
+    width: 90%;
+}
+.section-end-left form input::placeholder{
+    font-size: 16px;
+}
+.section-end-left form input[type=email]:focus {
+    outline: none;
+}
+.section-end-left form button {
+    border: 0;
+    background-color: #ffffff;
+    width: 10%;
+    height: 30px;
+    font-size: 20px;
+
+}
+.section-end-left form button:hover {
+    background-color: #E02C6D;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.section-end-left p:nth-of-type(1){
+    font-size: 14px;
+    color: #636262;
+    margin-bottom: 1rem;
+}
+
+.section-end-right .contents-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
 
