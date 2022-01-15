@@ -202,17 +202,20 @@ footer {
     .half-width {
         width: 100%;
     }
-    h3 {
-        font-size: 5px;
+    nav h3, .popular-collection h3, .section-end h3, .footer-content h3 {
+        font-size: 1rem;
     }
+    .header-showcase, .popular-collection .collections, .section-end{
+        display: block;
+    }
+
     /* header-section */
     nav{
         margin: 35px 0 22px 0;
-    }    
-    nav h3 {
-        text-align: center;
-        font-size: 1rem;
     }
+    nav h3{
+        text-align: center;
+    }    
     .header-img img{
         width: 202px;
         height: 190px;
@@ -222,7 +225,6 @@ footer {
     }
     
     .header-showcase{
-        display: block;
         text-align: center;
     }
     .header-description {
@@ -232,6 +234,40 @@ footer {
         font-size: 28px;
         line-height: 42px;
     }
-    
-    
+    /*main > popular-collection*/
+    .popular-collection{
+        margin-bottom: 50px;
+    }
+    .popular-collection h3 {
+        padding-bottom: 20px;
+    }
+    .popular-collection .collections .item {
+        width: 329px;
+        height: 476px;
+        margin: 0 auto 15px auto;
+    }
+    .popular-collection .collections .item img{
+        width: 300px;
+        height: 256px;
+    }
+    .showMore-link {
+        width: 329px;
+        margin: 0 auto;
+    }
+
+    /* main > section-end */
+    .section-end-left{
+        margin-bottom: 50px;
+    }
+    .section-end-right .content-left{
+        padding-right: 1rem;
+    }
+    .section-end-right .content-right{
+        padding-left: 1rem;
+    }
+
+    /*footer section*/
+    footer{
+        margin-top: 50px;
+    }
 }
