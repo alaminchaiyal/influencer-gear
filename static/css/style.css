@@ -43,8 +43,12 @@ nav h3{
     display: flex;
     justify-content: space-between;
 }
+.header-img{
+    order: 2;
+}
 .header-description {
     margin: 145px 0 170px 0;
+    order: 1;
 }
 .header-description h1 {
     font-size: 52px;
@@ -163,4 +167,71 @@ nav h3{
 .content-left a:hover, .content-right a:hover{
     border-bottom: 1px solid #3A3A3A;
 }
+.content-bottom .fa-brands{
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
 
+/* footer section */
+footer {
+    margin-top: 100px;
+    background-color: #18191F;
+    color: #ffffff;
+}
+.footer-content {
+    text-align: center;
+    padding: 1rem 0;
+}
+.footer-content h3 {
+    padding-bottom: 1rem;
+    font-size: 24px;
+}
+.footer-content p{
+    color: #D9DBE1;
+    font-size: 14px;
+}
+.footer-content p:nth-of-type(3){
+    padding-top: 0.8rem;
+}
+.footer-content .fab{
+    margin-right: 0.8rem;
+}
+
+/*responsive for mobile devices*/
+@media (max-width: 688px) {
+    .half-width {
+        width: 100%;
+    }
+    h3 {
+        font-size: 5px;
+    }
+    /* header-section */
+    nav{
+        margin: 35px 0 22px 0;
+    }    
+    nav h3 {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .header-img img{
+        width: 202px;
+        height: 190px;
+    }
+    .header-img {
+        margin: 0 auto;
+    }
+    
+    .header-showcase{
+        display: block;
+        text-align: center;
+    }
+    .header-description {
+        margin: 14px 0 50px 0;
+    }
+    .header-description h1 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    
+    
+}
