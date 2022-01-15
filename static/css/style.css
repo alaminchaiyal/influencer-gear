@@ -160,4 +160,7 @@ nav h3{
     font-size: 16px;
     color: #636262;
 }
+.content-left a:hover, .content-right a:hover{
+    border-bottom: 1px solid #3A3A3A;
+}
 
